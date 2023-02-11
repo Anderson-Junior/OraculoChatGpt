@@ -4,11 +4,13 @@
 
 <div class="text-center">
     <h1 class="display-4">Bem vindo ao Oráculo</h1>
-    <form method="post">
-        <input type="text" name="pergunta" placeholder="digite aqui sua pergunta" />
-        <input type="submit" value="Enviar" />
-    </form>
-
+    <div class="mb-3">
+        <form method="post">
+            <input type="text" class="form-control" name="pergunta" placeholder="Pergunte ao ChatGTP" />
+            <br />
+            <input type="submit" class="btn btn-primary" value="Enviar" />
+        </form>
+    </div>
     @if (ViewBag.Resposta != null)
     {
         <br />
@@ -26,5 +28,4 @@
         <h2 style="color:red">Houve um erro na comunicação</h2>
         <h2 style="color:red">@ViewBag.Error</h2>
     }
-
 </div>

@@ -1,7 +1,7 @@
-﻿using OraculoChatGptApi.Models;
+﻿using OraculoChatGpt.Models;
 using System.Threading.Tasks;
 
-namespace OraculoChatGptApi.Interfaces
+namespace OraculoChatGpt.Interfaces
 {
     public interface IOpenAITextService
     {

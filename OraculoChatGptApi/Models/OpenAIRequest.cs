@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace OraculoChatGptApi.Models
+namespace OraculoChatGpt.Models
 {
     public class OpenAIRequest
     {

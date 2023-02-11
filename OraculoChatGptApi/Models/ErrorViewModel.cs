@@ -1,6 +1,6 @@
 using System;
 
-namespace OraculoChatGptApi.Models
+namespace OraculoChatGpt.Models
 {
     public class ErrorViewModel
     {

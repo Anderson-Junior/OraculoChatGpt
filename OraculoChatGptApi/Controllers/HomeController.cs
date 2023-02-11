@@ -1,12 +1,12 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using OraculoChatGptApi.Interfaces;
-using OraculoChatGptApi.Models;
+using OraculoChatGpt.Interfaces;
+using OraculoChatGpt.Models;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace OraculoChatGptApi.Controllers
+namespace OraculoChatGpt.Controllers
 {
     public class HomeController : Controller
     {

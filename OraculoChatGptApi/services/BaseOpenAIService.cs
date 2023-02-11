@@ -1,9 +1,9 @@
 ﻿using Microsoft.Extensions.Options;
-using OraculoChatGptApi.Models;
+using OraculoChatGpt.Models;
 using System.Net.Http;
 using System.Net.Http.Headers;
 
-namespace OraculoChatGptApi.services
+namespace OraculoChatGpt.services
 {
     public class BaseOpenAIService
     {

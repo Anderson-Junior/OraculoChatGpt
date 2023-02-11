@@ -1,12 +1,12 @@
 ﻿using Microsoft.Extensions.Options;
-using OraculoChatGptApi.Interfaces;
-using OraculoChatGptApi.Models;
+using OraculoChatGpt.Interfaces;
+using OraculoChatGpt.Models;
 using System.Net.Http;
 using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
 
-namespace OraculoChatGptApi.services
+namespace OraculoChatGpt.services
 {
     public class OpenAITextService : BaseOpenAIService, IOpenAITextService
     {

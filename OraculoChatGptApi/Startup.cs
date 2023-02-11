@@ -3,11 +3,11 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using OraculoChatGptApi.Interfaces;
-using OraculoChatGptApi.Models;
-using OraculoChatGptApi.services;
+using OraculoChatGpt.Interfaces;
+using OraculoChatGpt.Models;
+using OraculoChatGpt.services;
 
-namespace OraculoChatGptApi
+namespace OraculoChatGpt
 {
     public class Startup
     {
